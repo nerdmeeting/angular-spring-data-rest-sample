@@ -1,7 +1,14 @@
 node_modules
 bower_components
 npm-debug.log
-build
+build/
+
+### IntelliJ IDEA ###
 .idea
+*.iws
+*.ipr
 *.iml
+
+.DS_Store
 src/main/webapp/lib/bower
+.gradle
