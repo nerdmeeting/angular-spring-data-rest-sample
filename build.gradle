@@ -5,6 +5,8 @@ plugins {
     id 'application'
 }
 
+sourceCompatibility = JavaVersion.VERSION_11
+
 mainClassName = 'org.guylabs.angular.spring.data.rest.sample.Application'
 
 jar {
