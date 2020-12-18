@@ -2,7 +2,14 @@
     "name": "angular-spring-data-rest-sample",
     "version": "0.1.0",
     "description": "Spring Boot based sample project for the https://github.com/guylabs/angular-spring-data-rest Angular module.",
-    "keywords": ["AngularJS", "angular", "Spring", "Spring Data", "REST", "Spring Data REST"],
+    "keywords": [
+        "AngularJS",
+        "angular",
+        "Spring",
+        "Spring Data",
+        "REST",
+        "Spring Data REST"
+    ],
     "homepage": "http://guylabs.ch/project/angular-spring-data-rest",
     "bugs": "https://github.com/guylabs/angular-spring-data-rest-sample/issues",
     "author": {
