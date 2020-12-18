@@ -1,10 +1,8 @@
 package org.guylabs.angular.spring.data.rest.sample;
 
 import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
-import org.springframework.context.annotation.Configuration;
-import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 import org.springframework.data.rest.core.config.RepositoryRestConfiguration;
 import org.springframework.data.rest.webmvc.config.RepositoryRestConfigurerAdapter;
 
@@ -14,9 +12,7 @@ import java.util.ArrayList;
  * Main application class which is auto configured by Spring. It adds default values in the main method
  * and sets the base URI of the REST endpoint to "/rest".
  */
-@Configuration
-@EnableJpaRepositories
-@EnableAutoConfiguration
+@SpringBootApplication
 public class Application extends RepositoryRestConfigurerAdapter {
 
     public static void main(String[] args) {
